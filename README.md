@@ -26,3 +26,8 @@ clang-split-function anyfile.c/cpp
 python3 splitFunctions.py <source_file_dir>
 ```
 The output of `splitFunctions.py` is a json file containing the path for all available functions. 
+
+## Referred links:
+1. Clang Tutorial: Finding declarations. https://xinhuang.github.io/posts/2014-10-19-clang-tutorial-finding-declarations.html
+2. clang-tutorial. https://github.com/loarabia/Clang-tutorial
+3. How to write RecursiveASTVisitor based ASTFrontendActions. https://clang.llvm.org/docs/RAVFrontendAction.html
